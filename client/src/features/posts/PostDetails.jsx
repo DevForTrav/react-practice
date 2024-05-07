@@ -29,6 +29,8 @@ function PostDetails() {
     <div>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
+      <Link to={`/posts/${id}/edit`}>Edit posts</Link>
+      <br/>
       <Link to="/">Back to posts</Link>
     </div>
   )
